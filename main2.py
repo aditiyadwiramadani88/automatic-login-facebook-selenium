@@ -16,13 +16,5 @@ for i in x:
 	    except Exception as e:
 	    	  print(i)
 	    	  break
-	    if driver.title == 'Facebook - Masuk atau Daftar':
-	    	try:
-	    		driver.back()
-	    	except Exception as e:
-	    		print(i)
-	    		exit()
-	    	continue
-	    else: 
-	    	    print(i);break
+	    driver.back()
 	    	
