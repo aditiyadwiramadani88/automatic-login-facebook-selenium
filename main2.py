@@ -9,8 +9,9 @@ driver.get(url)
 # open file
 file= open("s.txt", encoding="utf-8")
 x = [l.rstrip("\n") for l in file]
-# get email input and send keys 
+# get email input 
 elem1=driver.find_element_by_id("email")
+#get username,email,no in argv. and send keys 
 elem1.send_keys(sys.argv[1])
 # loops text
 for i in x: 
