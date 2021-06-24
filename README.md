@@ -1,15 +1,12 @@
 # Install module and download chrome driver 
-``sh 
-
+```bash
+    
 pip install selenium 
-
-``
+ 
+```
 
 #   running 
-``sh 
+```bash
 python3 main.py email or username , phone number
 
-``
-
-
-
+```
